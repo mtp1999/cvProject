@@ -1,0 +1,45 @@
+{% extends 'appCV/_base.html' %}
+{% load static %}
+
+{% block title %}
+    services
+{% endblock %}
+
+
+{% block active_services %}
+    active
+{% endblock %}
+
+{% block content %}
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Here's some of my projects:</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-calendar"></i></div>
+            <h4 class="title"><a href="">Jalali date time application </a></h4>
+            <p class="description">
+                a graphical app has been created to show current jalali
+                date and time(persian date and time).
+            </p>
+            <a href="https://github.com/mtp1999/jalali_date_time_app">Link</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-house"></i></div>
+            <h4 class="title"><a href="">Persian house price prediction application</a></h4>
+            <p class="description">A graphical app has been created to predict house price in Tehran city</p>
+            <a href="https://github.com/mtp1999/persian_house_price_prediction">Link</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+{% endblock %}
